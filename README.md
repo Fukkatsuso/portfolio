@@ -1,4 +1,4 @@
-# mutsuro-portfolio
+# portfolio
 
 ## Project setup
 ```
