@@ -106,13 +106,12 @@ export default {
 }
 
 .profile-link {
+  $sub-color: #4dd0e1;
   text-align: center;
   font-size: 2.5em;
   .profile-link-icon {
     background-color: #ffffff;
-    color: #2196f3;
-    // color: #9575cd;
-    // color: rgba(0, 0, 0, 1);
+    color: $sub-color;
     border-radius: 50%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   }

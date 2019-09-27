@@ -32,6 +32,9 @@ export default {
 
 <style lang="scss">
 .work-card {
+  $primary-color: #009688;
+  $secondary-color: #00897b;
+  $sub-color: #4dd0e1;
   position: relative;
   text-align: left;
   width: 50%;
@@ -56,7 +59,7 @@ export default {
     font-size: 14px;
   }
   .work-link-icon {
-    color: #2196f3;
+    color: $sub-color;
     font-size: 1.5em;
     position: absolute;
     right: 1em;
