@@ -24,6 +24,6 @@ export default {
 
 #app {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
-  /* font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+  padding-bottom: 2em;
 }
 </style>

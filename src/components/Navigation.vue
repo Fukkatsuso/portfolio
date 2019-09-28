@@ -38,11 +38,17 @@ nav {
     margin: 0 auto;
     padding: 0;
     width: 80%;
+    @media screen and (max-width: 425px) {
+      width: 100%;
+    }
     text-align: center;
     li {
       display: table-cell;
       padding: 10px 0 0 0;
       width: 18%;
+      @media screen and (max-width: 425px) {
+        width: 20%;
+      }
     }
     li:hover {
       background-color: $secondary-color;

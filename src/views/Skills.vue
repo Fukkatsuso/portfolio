@@ -54,10 +54,16 @@ export default {
 .skills-flex-container {
   width: 80%;
   margin-left: 10%;
+  @media screen and (max-width: 767px) {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+.skills-flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   align-content: flex-start;
 }

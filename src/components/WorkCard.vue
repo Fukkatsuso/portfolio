@@ -32,15 +32,23 @@ export default {
 
 <style lang="scss">
 .work-card {
+  width: 60%;
+  max-width: 500px;
+  margin: 0 1em 1em 1em;
+  padding: 0 1.5em 0.5em 1.5em;
+  @media screen and (max-width: 767px) {
+    width: 70%;
+    max-width: 500px;
+    margin: 0 1em 1em 1em;
+    padding: 0 1.5em 0.5em 1.5em;
+  }
+}
+.work-card {
   $primary-color: #009688;
   $secondary-color: #00897b;
   $sub-color: #4dd0e1;
   position: relative;
   text-align: left;
-  width: 50%;
-  max-width: 500px;
-  margin: 0 1em 1em 1em;
-  padding: 0 1.5em 0.5em 1.5em;
   background-color: #ffffff;
   border-radius: 2px;
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
@@ -54,6 +62,7 @@ export default {
   }
   .work-content {
     font-size: 16px;
+    margin-bottom: 1.5em;
   }
   .work-tech {
     font-size: 14px;

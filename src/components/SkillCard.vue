@@ -19,11 +19,20 @@ export default {
 
 <style lang="scss">
 .skill-card {
-  text-align: left;
-  width: 40%;
+  width: 35%;
   max-width: 400px;
   margin: 0 1em 1em 1em;
   padding: 0 1.5em 0.5em 1.5em;
+  @media screen and (max-width: 767px) {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 1em 1em 1em;
+    padding: 0 1.5em 0.5em 1.5em;
+  }  
+}
+
+.skill-card {
+  text-align: left;
   background-color: #ffffff;
   border-radius: 2px;
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
