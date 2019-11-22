@@ -32,7 +32,7 @@ export default {
           content: 'このポートフォリオサイトです。\
                     Vue.jsでSPAとして作成しています。\
                     マテリアルデザインを意識して仕上げました。',
-          tech: 'HTML, CSS, Vue.js',
+          tech: 'HTML, CSS, Vue.js, Docker',
           link: 'https://github.com/Fukkatsuso/portfolio'
         },
         {
@@ -61,8 +61,9 @@ export default {
         {
           name: '競技プログラミング',
           timing: '2017.04-',
-          content: 'AtCoderというサイトで開かれているコンテストに参加しています。',
-          tech: 'Ruby',
+          content: 'AtCoderというサイトで開かれているコンテストに参加しています。\
+                    学生のうちに水色になりたいです。',
+          tech: 'Ruby, Go',
           link: 'https://atcoder.jp/users/mutsuro_626'
         },
       ]
