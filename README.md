@@ -2,28 +2,25 @@
 
 ## Project setup
 ```
-npm install
+docker-compose run web npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+docker-compose run web npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+docker-compose run web npm run build
 ```
 
 ### Run your tests
 ```
-npm run test
+docker-compose run web npm run test
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+docker-compose run web npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

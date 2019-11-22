@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    volumes: 
+      - .:/app
+    tty: true
+    ports: 
+      - 8080:8080
+    command: "npm run serve"
