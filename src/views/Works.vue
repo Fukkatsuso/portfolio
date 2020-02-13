@@ -4,6 +4,7 @@
     <div class="works-flex-container">
       <WorkCard 
         v-for="work in works" 
+        v-bind:key="work.name"
         v-bind:name="work.name"
         v-bind:timing="work.timing"
         v-bind:content="work.content"

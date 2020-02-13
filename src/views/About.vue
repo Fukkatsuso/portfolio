@@ -4,7 +4,7 @@
     <div>
       <div class="profile-table">
         <table>
-          <tr v-for="item in profile">
+          <tr v-for="item in profile" v-bind:key="item.title">
             <th>{{ item.title }}</th>
             <td>{{ item.content }}</td>
           </tr>
@@ -25,12 +25,12 @@
           <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
         </ul>
       </p>
-      <p>競技プログラミングのコンテスト(AtCoder)に個人参加中。Rating:700台(茶色)</p>
+      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rating:800台(緑色)</p>
     </div>
 
     <SubTitle name="Future"/>
     <div class="profile-future">
-      <p>toC向けのWebサービス開発がしたい</p>
+      <p>toCのWebサービス開発がしたい</p>
       <p>ビジネスの知識も持ったエンジニアになりたい</p>
       <p>個人でもチームでもたくさんのアプリ・サービスを開発したい</p>
     </div>
@@ -62,7 +62,7 @@ export default {
         {title: 'Editor',
         content: 'VSCode'},
         {title: 'Favorite',
-        content: 'MONKEY MAJIK, スピッツ'}
+        content: 'MONKEY MAJIK, スピッツ, 平沢進'}
       ],
       githubIcon: faGithub
     }

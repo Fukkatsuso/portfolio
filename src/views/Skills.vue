@@ -3,6 +3,7 @@
     <SubTitle name="Skills"/>
     <div class="skills-flex-container">
       <SkillCard v-for="skill in skills"
+      v-bind:key="skill.name"
       v-bind:name="skill.name"
       v-bind:term="skill.term"
       v-bind:content="skill.content" />
@@ -30,10 +31,10 @@ export default {
         term: '1年', 
         content: 'サーバーサイドや競技プログラミングに使用しています。便利なメソッドやライブラリが豊富なところが好きです。'},
         {name: 'JavaScript',
-        term: '3ヵ月',
+        term: '3ヶ月',
         content: 'Web開発で必要になった際に適宜使っている程度で、簡単なものしか記述できずあまり得意とは言えません。調べながらであれば大体の処理は書けそうな気がします。'},
         {name: 'Go',
-        term: '2週間',
+        term: '2ヶ月',
         content: '静的型付けがトレンドと聞いて始めてみました。競プロでRubyからGoに移行中で試行錯誤していますが、interfaceや並列処理などのコードは書いておらず、まだ慣れていません。APIサーバーを立ててアプリを作ってみたいと考えています。'},
         {name: 'HTML/CSS',
         term: '1年',
@@ -42,16 +43,16 @@ export default {
         term: '1年',
         content: 'Webアプリ作成で主に使用しているフレームワークです。Webの勉強をするにつれて、なんでもござれなRailsは基礎を学ぶのに不向きだと思い始めました。'},
         {name: 'Sinatra',
-        term: '1ヶ月',
+        term: '2ヶ月',
         content: 'サーバーサイドのコードを極力自分で書きたいという気持ちが高まって始めました。MySQLと連携して簡単なAPIサーバーを立てるところまではできます。'},
         {name: 'Vue.js',
         term: '2ヶ月',
         content: '新しめなフロントエンド技術の習得の第1歩に選びました。このポートフォリオに使用しています。'},
         {name: 'MySQL',
-        term: '~半年',
+        term: '半年',
         content: 'Railsと一緒に使うことが多く、SQLはあまり書いた経験がありませんでしたが、Sinatraを始めたのを機に自力でSQLを書くようになりました。'},
         {name: 'Docker',
-        term: '1ヶ月',
+        term: '4ヶ月',
         content: '念願のmacbookを手に入れて以降、開発環境はDockerで作るようにしています。コンテナの作成・立ち上げ・破棄が手軽にできるので気に入っています。'},
         {name: 'Git/GitHub',
         term: '1年',
