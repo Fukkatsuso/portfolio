@@ -52,7 +52,7 @@ export default {
         {title: 'Name',
         content: '無津呂 樹  (Mutsuro Tatsuki)'},
         {title: 'Age',
-        content: '20'},
+        content: this.age()},
         {title: 'From',
         content: '福岡県'},
         {title: 'University',
@@ -65,6 +65,13 @@ export default {
         content: 'MONKEY MAJIK, スピッツ, 平沢進'}
       ],
       githubIcon: faGithub
+    }
+  },
+  methods: {
+    age: function() {
+      var now = new Date
+      let res = ((now.getFullYear()-1999)*10000 + (now.getMonth()+1-3)*100 + (now.getDate()-14)) / 10000
+      return Math.floor(res)
     }
   }
 }
