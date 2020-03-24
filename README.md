@@ -25,7 +25,8 @@ $ docker-compose run web npm run test
 $ docker-compose run web npm run lint
 ```
 
-### Deploy (Example)
+## Deploy (Example)
+### GitHub Pages
 ```sh
 (dev)$ docker-compose run web npm run build
 (dev)$ git add docs/
