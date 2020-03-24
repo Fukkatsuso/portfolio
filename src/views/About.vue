@@ -25,13 +25,13 @@
           <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
         </ul>
       </p>
-      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rating:800台(緑色)</p>
+      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rate:900台(緑色)</p>
     </div>
 
     <SubTitle name="Future"/>
     <div class="profile-future">
-      <p>toCのWebサービス開発がしたい</p>
-      <p>ビジネスの知識も持ったエンジニアになりたい</p>
+      <p>ユーザー目線で考えられるエンジニアになりたい</p>
+      <p>まずはサーバーサイドから、ゆくゆくはフルスタックを目指していきたい</p>
       <p>個人でもチームでもたくさんのアプリ・サービスを開発したい</p>
     </div>
   </div>
@@ -56,9 +56,9 @@ export default {
         {title: 'From',
         content: '福岡県'},
         {title: 'University',
-        content: '九州大学 工学部 電気情報工学科 3年'},
+        content: '九州大学 工学部 電気情報工学科 新4年'},
         {title: 'Language',
-        content: 'Ruby, C++, Japanese'},
+        content: 'Go, Ruby, Japanese'},
         {title: 'Editor',
         content: 'VSCode'},
         {title: 'Favorite',
