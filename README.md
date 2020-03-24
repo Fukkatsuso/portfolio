@@ -1,26 +1,36 @@
 # portfolio
 
 ## Project setup
-```
-docker-compose run web npm install
+```sh
+$ docker-compose run web npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-docker-compose run web npm run serve
+```sh
+$ docker-compose run web npm run serve
 ```
 
 ### Compiles and minifies for production
-```
-docker-compose run web npm run build
+```sh
+$ docker-compose run web npm run build
 ```
 
 ### Run your tests
-```
-docker-compose run web npm run test
+```sh
+$ docker-compose run web npm run test
 ```
 
 ### Lints and fixes files
+```sh
+$ docker-compose run web npm run lint
 ```
-docker-compose run web npm run lint
+
+### Deploy (Example)
+```sh
+(dev)$ docker-compose run web npm run build
+(dev)$ git add docs/
+(dev)$ git commit -m "hoge"
+(dev)$ git checkout master
+(master)$ git merge dev
+(master)$ git push origin master
 ```
