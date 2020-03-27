@@ -5,8 +5,14 @@ import About from './views/About.vue'
 import Skills from './views/Skills.vue'
 import Works from './views/Works.vue'
 import Contact from './views/Contact.vue'
+import VueAnalytics from 'vue-analytics'
 
 Vue.use(Router)
+
+Vue.use(VueAnalytics, {
+  id: 'UA-162053243-1',
+  Router
+})
 
 export default new Router({
   mode: 'history',
