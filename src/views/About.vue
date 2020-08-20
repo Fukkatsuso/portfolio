@@ -25,7 +25,7 @@
           <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
         </ul>
       </p>
-      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rate:900台(緑色)</p>
+      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rate:1000台(緑色)</p>
     </div>
 
     <SubTitle name="Future"/>
@@ -56,7 +56,7 @@ export default {
         {title: 'From',
         content: '福岡県'},
         {title: 'University',
-        content: '九州大学 工学部 電気情報工学科 新4年'},
+        content: '九州大学 工学部 電気情報工学科 4年'},
         {title: 'Language',
         content: 'Go, Ruby, Japanese'},
         {title: 'Editor',
