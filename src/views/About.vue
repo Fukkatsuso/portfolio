@@ -11,7 +11,8 @@
         </table>
       </div>
       <div class="profile-link">
-        <a href="https://github.com/Fukkatsuso" target="_blank"><font-awesome-icon class="profile-link-icon" :icon="githubIcon" /></a>
+        <a href="https://github.com/Fukkatsuso" target="_blank"><font-awesome-icon class="github-icon hover-icon" :icon="githubIcon" /></a>
+        <a href="https://blog.fukkatsuso.com" target="_blank"><font-awesome-icon class="blog-icon hover-icon" :icon="blogIcon" /></a>
       </div>
     </div>
 
@@ -40,6 +41,7 @@
 <script>
 import SubTitle from '@/components/SubTitle.vue'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faBlog } from '@fortawesome/free-solid-svg-icons'
 
 export default {
   name: 'about',
@@ -64,7 +66,8 @@ export default {
         {title: 'Favorite',
         content: 'MONKEY MAJIK, スピッツ, 平沢進'}
       ],
-      githubIcon: faGithub
+      githubIcon: faGithub,
+      blogIcon: faBlog,
     }
   },
   methods: {
@@ -115,14 +118,22 @@ export default {
 .profile-link {
   $sub-color: #4dd0e1;
   text-align: center;
-  font-size: 2.5em;
-  .profile-link-icon {
-    background-color: #ffffff;
-    color: $sub-color;
+  font-size: 2.8em;
+  a {
+    margin: 0.2em;
+  }
+  .github-icon {
     border-radius: 50%;
+  }
+  .blog-icon {
+    border-radius: 20%;
+  }
+  .hover-icon {
+    color: $sub-color;
+    background-color: #ffffff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   }
-  .profile-link-icon:hover {
+  .hover-icon:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);    
   }
 }
