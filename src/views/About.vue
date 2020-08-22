@@ -54,7 +54,7 @@ export default {
         {title: 'Name',
         content: '無津呂 樹  (Mutsuro Tatsuki)'},
         {title: 'Age',
-        content: this.age()},
+        content: this.age(1999, 3, 14)},
         {title: 'From',
         content: '福岡県'},
         {title: 'University',
@@ -71,9 +71,9 @@ export default {
     }
   },
   methods: {
-    age: function() {
+    age: function(year, month, day) {
       var now = new Date
-      let res = ((now.getFullYear()-1999)*10000 + (now.getMonth()+1-3)*100 + (now.getDate()-14)) / 10000
+      let res = ((now.getFullYear()-year)*10000 + (now.getMonth()+1-month)*100 + (now.getDate()-day)) / 10000
       return Math.floor(res)
     }
   }
