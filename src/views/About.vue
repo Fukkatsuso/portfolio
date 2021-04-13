@@ -18,24 +18,35 @@
 
     <SubTitle name="Activity"/>
     <div class="profile-activity">
+      <h3>インターン@株式会社AIoT</h3>
+      <ul>
+        <li>バックエンドを主に担当(Go, NestJS)</li>
+        <li>時々フロントも(Vue.js, React)</li>
+      </ul>
+
+      <h3>鈴木研究室に所属</h3>
+      <ul>
+        <li>データマイニングに関する研究</li>
+      </ul>
+      
+      <h3>競技プログラミングのコンテスト</h3>
+      <ul>
+        <li>AtCoderのレート: 1100付近(緑色)</li>
+      </ul>
+
       <h3>ロボコンサークルで大会に出場</h3>
       <ul>
         <li>NHK学生ロボコン2018ベスト4+アイデア賞</li>
         <li>NHK学生ロボコン2019ベスト4+デザイン賞</li>
         <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
       </ul>
-      
-      <h3>競技プログラミングのコンテスト(AtCoder)に個人参加</h3>
-      <ul>
-        <li>Rate: 1000台(緑色)</li>
-      </ul>
     </div>
 
     <SubTitle name="Future"/>
     <div class="profile-future">
-      <p>ユーザー目線で考えられるエンジニアになりたい</p>
-      <p>まずはサーバーサイドから、ゆくゆくはフルスタックを目指していきたい</p>
-      <p>個人でもチームでもたくさんのアプリ・サービスを開発したい</p>
+      <p>使う人のことを思いやって開発できるエンジニアになりたい</p>
+      <p>サーバーサイドを中心に技術力を上げ，ゆくゆくはフルスタックを目指していきたい</p>
+      <p>個人でもチームでも多くのアプリやサービスを開発したい</p>
     </div>
   </div>
 </template>
@@ -54,19 +65,19 @@ export default {
     return {
       profile: [
         {title: 'Name',
-        content: '無津呂 樹  (Mutsuro Tatsuki)'},
+        content: '無津呂 樹 (Mutsuro Tatsuki)'},
         {title: 'Age',
         content: this.age(1999, 3, 14)},
         {title: 'From',
         content: '福岡県'},
         {title: 'University',
-        content: '九州大学 工学部 電気情報工学科 4年'},
+        content: '九州大学 システム情報科学府 情報理工学専攻 修士1年'},
         {title: 'Language',
         content: 'Go, Ruby, Japanese'},
         {title: 'Editor',
         content: 'VSCode'},
         {title: 'Favorite',
-        content: 'MONKEY MAJIK, スピッツ, 平沢進'}
+        content: 'MONKEY MAJIK, 平沢進, ポケモン'}
       ],
       githubIcon: faGithub,
       blogIcon: faBlog,

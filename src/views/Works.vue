@@ -28,9 +28,17 @@ export default {
     return {
       works: [
         {
+          name: 'インターン@株式会社AIoT',
+          timing: '2020.11-',
+          content: '主に企業の業務用システムを一次請けで開発している，正社員・インターン合わせて20人弱の滋賀県にある会社です．\
+                    言語やフレームワークの垣根なく，バックエンドもフロントエンドも経験させてもらっています．\
+                    役割としては，月40〜50時間ほど，機能追加やエラー対応のタスクに取り組んでいます．',
+        },
+        {
           name: 'ブログ',
           timing: '2020.08',
-          content: 'Markdownで編集した記事からHugoで静的サイトを生成し，GAEでホスティングしている技術ブログです．',
+          content: 'Markdownで書いた記事からHugoで静的サイトを生成し，GoogleAppEngineでホスティングしている技術ブログです．\
+                    GitHubにpushするとMarkdownのLintからGAEへのデプロイまで自動でやってくれるワークフローを作り，運用を楽にしました．',
           tech: 'Hugo, Docker, GAE',
           link: 'https://blog.fukkatsuso.com'
         },
@@ -48,8 +56,8 @@ export default {
           timing: '2020.03',
           content: '位置情報から周辺の飲食店を検索できるLINEbotです．\
                     遠征先での食事処選びにいつも困っていたので，即決できるようなアプリ等が欲しいと思い作りました．\
-                    元々Sinatra + ホットペッパーAPI + Herokuで作っていたものを，Go + GooglePlacesAPI + GAEに置き換えています．',
-          tech: 'Go, Docker, GAE',
+                    元々Sinatra + ホットペッパーAPI + Herokuで作っていたものを，Go + GooglePlacesAPI + CloudRunに置き換えています．',
+          tech: 'Go, Docker, CloudRun',
           link: 'https://line.me/R/ti/p/%40438ryinm'
         },
         {
@@ -75,7 +83,7 @@ export default {
           timing: '2019.06',
           content: '好きな数独をテーマに，Railsアプリ制作の練習で作りました．\
                     数独パズルの選択・解答・答え合わせのみ実装済です．\
-                    現在開発はストップしていますが，その後数独問題生成&ソルバーを作ったので新規に「数独ソルバー」として別のアプリを作りました．',
+                    現在開発はストップしていますが，その後数独問題生成&ソルバーを作り，さらに「数独ソルバー」アプリを作るきっかけになりました．',
           tech: 'Rails',
           link: 'https://sudoku-rails-app.herokuapp.com/'
         },
