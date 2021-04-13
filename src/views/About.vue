@@ -18,15 +18,17 @@
 
     <SubTitle name="Activity"/>
     <div class="profile-activity">
-      <p>
-        ロボコンサークルで大会に出場<br/>
-        <ul>
-          <li>NHK学生ロボコン2018ベスト4+アイデア賞</li>
-          <li>NHK学生ロボコン2019ベスト4+デザイン賞</li>
-          <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
-        </ul>
-      </p>
-      <p>競技プログラミングのコンテスト(AtCoder)に個人参加。Rate:1000台(緑色)</p>
+      <h3>ロボコンサークルで大会に出場</h3>
+      <ul>
+        <li>NHK学生ロボコン2018ベスト4+アイデア賞</li>
+        <li>NHK学生ロボコン2019ベスト4+デザイン賞</li>
+        <li>キャチロボバトルコンテスト2019ベスト8+審査員特別賞</li>
+      </ul>
+      
+      <h3>競技プログラミングのコンテスト(AtCoder)に個人参加</h3>
+      <ul>
+        <li>Rate: 1000台(緑色)</li>
+      </ul>
     </div>
 
     <SubTitle name="Future"/>
@@ -140,14 +142,14 @@ export default {
 
 .profile-activity {
   @extend .profile-card;
-  text-align: center;
-  li {
-    text-align: left;
+  text-align: left;
+  ul {
+    list-style: none;
   }
 }
 
 .profile-future {
   @extend .profile-card;
-  text-align: center;
+  text-align: left;
 }
 </style>
