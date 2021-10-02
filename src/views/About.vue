@@ -59,25 +59,39 @@ import { faBlog } from '@fortawesome/free-solid-svg-icons'
 export default {
   name: 'about',
   components: {
-    SubTitle
+    SubTitle,
   },
   data () {
     return {
       profile: [
-        {title: 'Name',
-        content: '無津呂 樹 (Mutsuro Tatsuki)'},
-        {title: 'Age',
-        content: this.age(1999, 3, 14)},
-        {title: 'From',
-        content: '福岡県'},
-        {title: 'University',
-        content: '九州大学 システム情報科学府 情報理工学専攻 修士1年'},
-        {title: 'Language',
-        content: 'Go, Ruby, Japanese'},
-        {title: 'Editor',
-        content: 'VSCode'},
-        {title: 'Favorite',
-        content: 'MONKEY MAJIK, 平沢進, ポケモン'}
+        {
+          title: 'Name',
+          content: '無津呂 樹 (Mutsuro Tatsuki)',
+        },
+        {
+          title: 'Age',
+          content: this.age(1999, 3, 14),
+        },
+        {
+          title: 'From',
+          content: '福岡県',
+        },
+        {
+          title: 'University',
+          content: '九州大学 システム情報科学府 情報理工学専攻 修士1年',
+        },
+        {
+          title: 'Language',
+          content: 'Go, Ruby, Japanese',
+        },
+        {
+          title: 'Editor',
+          content: 'VSCode',
+        },
+        {
+          title: 'Favorite',
+          content: 'MONKEY MAJIK, 平沢進, ポケモン',
+        },
       ],
       githubIcon: faGithub,
       blogIcon: faBlog,
@@ -88,8 +102,8 @@ export default {
       var now = new Date
       let res = ((now.getFullYear()-year)*10000 + (now.getMonth()+1-month)*100 + (now.getDate()-day)) / 10000
       return Math.floor(res)
-    }
-  }
+    },
+  },
 }
 </script>
 

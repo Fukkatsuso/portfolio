@@ -22,7 +22,7 @@ export default {
   name: 'works',
   components: {
     SubTitle,
-    WorkCard
+    WorkCard,
   },
   data () {
     return {
@@ -125,9 +125,9 @@ export default {
           tech: 'C/C++ -> Ruby -> Go',
           link: 'https://atcoder.jp/users/mutsuro_626'
         },
-      ]
+      ],
     }
-  }
+  },
 }
 </script>
 

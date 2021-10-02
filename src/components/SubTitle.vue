@@ -8,8 +8,8 @@
 export default {
   name: 'SubTitle',
   props: {
-    name: String
-  }
+    name: String,
+  },
 }
 </script>
 

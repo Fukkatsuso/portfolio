@@ -19,13 +19,13 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 export default {
   name: 'contact',
   components: {
-    SubTitle
+    SubTitle,
   },
   data () {
     return {
-      emailIcon: faEnvelope
+      emailIcon: faEnvelope,
     }
-  }
+  },
 }
 </script>
 
