@@ -28,6 +28,15 @@ export default {
     return {
       works: [
         {
+          name: '仮想通貨取引bot',
+          timing: '2021.04-2021.09',
+          content: '仮想通貨を自動取引するbotを開発しました．\
+                    お金を扱うため，デプロイ・テスト・本番DBのマイグレーションを自動化するなど，属人的なミスを排除することにこだわりました．\
+                    現段階では全てのコードをテストしきっておらず，テストしやすいコードにリファクタリングしている最中です．',
+          tech: 'Go, Vue.js, MySQL, Docker, GCP',
+          link: 'https://dashboard-qboqrrfuaq-an.a.run.app',
+        },
+        {
           name: 'オータムハッカソン@DeNA',
           timing: '2021.09',
           content: 'コロナ禍で孤独な時間が増え寂しい思いをしている人に向けた，誕生日を祝ってもらうサービスを4人チームで開発しました．\
