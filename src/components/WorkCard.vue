@@ -20,13 +20,13 @@ export default {
     timing: String,
     content: String,
     tech: String,
-    link: String
+    link: String,
   },
   data () {
     return {
       workLinkIcon: faExternalLinkAlt
     }
-  }
+  },
 }
 </script>
 
@@ -43,6 +43,7 @@ export default {
     padding: 0 1.5em 0.5em 1.5em;
   }
 }
+
 .work-card {
   $primary-color: #009688;
   $secondary-color: #00897b;

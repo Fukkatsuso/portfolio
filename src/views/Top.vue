@@ -12,8 +12,8 @@ import SubTitle from '@/components/SubTitle.vue'
 export default {
   name: 'top',
   components: {
-    SubTitle
-  }
+    SubTitle,
+  },
 }
 </script>
 

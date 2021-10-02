@@ -12,8 +12,8 @@ export default {
   props: {
     name: String,
     term: String,
-    content: String
-  }
+    content: String,
+  },
 }
 </script>
 
