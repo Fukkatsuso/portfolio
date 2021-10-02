@@ -49,8 +49,8 @@ export default {
           name: 'インターン@株式会社AIoT',
           timing: '2020.11-2021.09',
           content: '主に企業の業務用システムを一次請けで開発している，正社員・インターン合わせて20人弱の滋賀県にある会社です．\
-                    言語やフレームワークの垣根なく，バックエンドもフロントエンドも経験させてもらっています．\
-                    役割としては，月40〜50時間ほど，機能追加やエラー対応のタスクに取り組んでいます．',
+                    言語やフレームワークの垣根なく，バックエンドもフロントエンドも経験させてもらいました．．\
+                    役割としては，月40〜50時間ほど，機能追加やエラー対応のタスクに取り組みました．',
           tech: 'Go, NestJS, etc.',
         },
         {
@@ -68,7 +68,7 @@ export default {
                     大抵の問題は1,2秒以内に解いてくれると思います．\
                     数独の画像から数字を読み取ってテーブルに書き起こしてくれる機能もついています（精度は保証できません）．',
           tech: 'Go, Vue.js, Docker',
-          link: 'https://sudoku-solver-3fhwuagqeq-an.a.run.app/'
+          link: 'https://sudoku-solver-3fhwuagqeq-an.a.run.app'
         },
         {
           name: '飲食店検索LINEbot',
@@ -104,7 +104,7 @@ export default {
                     数独パズルの選択・解答・答え合わせのみ実装済です．\
                     現在開発はストップしていますが，その後数独問題生成&ソルバーを作り，さらに「数独ソルバー」アプリを作るきっかけになりました．',
           tech: 'Rails',
-          link: 'https://sudoku-rails-app.herokuapp.com/'
+          link: 'https://sudoku-rails-app.herokuapp.com'
         },
         { 
           name: '4足歩行ロボット制御',
