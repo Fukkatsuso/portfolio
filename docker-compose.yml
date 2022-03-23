@@ -3,9 +3,9 @@ version: "3"
 services:
   web:
     build: .
-    volumes: 
+    volumes:
       - .:/app
-    tty: true
-    ports: 
+      - /app/node_modules
+    ports:
       - 8080:8080
     command: "npm run serve"
