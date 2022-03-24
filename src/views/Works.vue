@@ -1,15 +1,16 @@
 <template>
   <div>
-    <SubTitle name="Works"/>
+    <SubTitle name="Works" />
     <div class="works-flex-container">
       <WorkCard 
         v-for="work in works" 
-        v-bind:key="work.name"
-        v-bind:name="work.name"
-        v-bind:timing="work.timing"
-        v-bind:content="work.content"
-        v-bind:tech="work.tech"
-        v-bind:link="work.link" />
+        :key="work.name"
+        :name="work.name"
+        :timing="work.timing"
+        :content="work.content"
+        :tech="work.tech"
+        :link="work.link"
+      />
     </div>
   </div>
 </template>
@@ -19,7 +20,7 @@ import SubTitle from '@/components/SubTitle.vue'
 import WorkCard from '@/components/WorkCard.vue'
 
 export default {
-  name: 'works',
+  name: 'Works',
   components: {
     SubTitle,
     WorkCard,

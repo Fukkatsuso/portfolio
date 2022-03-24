@@ -1,12 +1,14 @@
 <template>
   <div>
-    <SubTitle name="Skills"/>
+    <SubTitle name="Skills" />
     <div class="skills-flex-container">
-      <SkillCard v-for="skill in skills"
-      v-bind:key="skill.name"
-      v-bind:name="skill.name"
-      v-bind:term="skill.term"
-      v-bind:content="skill.content" />
+      <SkillCard
+        v-for="skill in skills"
+        :key="skill.name"
+        :name="skill.name"
+        :term="skill.term"
+        :content="skill.content"
+      />
     </div>
   </div>
 </template>
@@ -16,7 +18,7 @@ import SubTitle from '@/components/SubTitle.vue'
 import SkillCard from '@/components/SkillCard.vue'
 
 export default {
-  name: 'skills',
+  name: 'Skills',
   components: {
     SubTitle,
     SkillCard,

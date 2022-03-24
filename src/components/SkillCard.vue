@@ -1,8 +1,14 @@
 <template>
   <div class="skill-card">
-    <h3 class="skil-name">{{ name }}</h3>
-    <p class="skill-term">使用歴：{{ term }}</p>
-    <p class="skill-content">{{ content }}</p>
+    <h3 class="skil-name">
+      {{ name }}
+    </h3>
+    <p class="skill-term">
+      使用歴：{{ term }}
+    </p>
+    <p class="skill-content">
+      {{ content }}
+    </p>
   </div>
 </template>
 
@@ -10,9 +16,18 @@
 export default {
   name: 'SkillCard',
   props: {
-    name: String,
-    term: String,
-    content: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    term: {
+      type: String,
+      required: true,
+    },
+    content: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>

@@ -1,11 +1,26 @@
 <template>
   <div class="work-card">
-    <h3 class="work-name">{{ name }}</h3>
-    <p class="work-timing">{{ timing }}</p>
-    <p class="work-content">{{ content }}</p>
-    <p class="work-tech">{{ tech }}</p>
-    <a v-if="link" :href="link" target="_blank">
-      <font-awesome-icon class="work-link-icon" :icon="workLinkIcon" />
+    <h3 class="work-name">
+      {{ name }}
+    </h3>
+    <p class="work-timing">
+      {{ timing }}
+    </p>
+    <p class="work-content">
+      {{ content }}
+    </p>
+    <p class="work-tech">
+      {{ tech }}
+    </p>
+    <a
+      v-if="link"
+      :href="link"
+      target="_blank"
+    >
+      <font-awesome-icon
+        class="work-link-icon"
+        :icon="workLinkIcon"
+      />
     </a>
   </div>
 </template>
@@ -16,11 +31,27 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 export default {
   name: 'WorkCard',
   props: {
-    name: String,
-    timing: String,
-    content: String,
-    tech: String,
-    link: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    timing: {
+      type: String,
+      required: true,
+    },
+    content: {
+      type: String,
+      required: true,
+    },
+    tech: {
+      type: String,
+      required: true,
+    },
+    link: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   data () {
     return {
