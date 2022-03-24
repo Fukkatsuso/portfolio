@@ -8,7 +8,10 @@
 export default {
   name: 'SubTitle',
   props: {
-    name: String,
+    name: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>

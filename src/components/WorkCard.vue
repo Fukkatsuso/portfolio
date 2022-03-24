@@ -31,11 +31,27 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 export default {
   name: 'WorkCard',
   props: {
-    name: String,
-    timing: String,
-    content: String,
-    tech: String,
-    link: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    timing: {
+      type: String,
+      required: true,
+    },
+    content: {
+      type: String,
+      required: true,
+    },
+    tech: {
+      type: String,
+      required: true,
+    },
+    link: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   data () {
     return {

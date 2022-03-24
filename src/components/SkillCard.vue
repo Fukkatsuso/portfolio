@@ -16,9 +16,18 @@
 export default {
   name: 'SkillCard',
   props: {
-    name: String,
-    term: String,
-    content: String,
+    name: {
+      type: String,
+      required: true,
+    },
+    term: {
+      type: String,
+      required: true,
+    },
+    content: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>
