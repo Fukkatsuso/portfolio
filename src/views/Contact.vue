@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SubTitle name="Contact"/>
+    <SubTitle name="Contact" />
     <div class="contact">
       <table>
         <tr>
@@ -17,7 +17,7 @@ import SubTitle from '@/components/SubTitle.vue'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 export default {
-  name: 'contact',
+  name: 'Contact',
   components: {
     SubTitle,
   },

@@ -1,22 +1,37 @@
 <template>
   <div>
-    <SubTitle name="About me"/>
+    <SubTitle name="About me" />
     <div>
       <div class="profile-table">
         <table>
-          <tr v-for="item in profile" v-bind:key="item.title">
+          <tr
+            v-for="item in profile"
+            :key="item.title"
+          >
             <th>{{ item.title }}</th>
             <td>{{ item.content }}</td>
           </tr>
         </table>
       </div>
       <div class="profile-link">
-        <a href="https://github.com/Fukkatsuso" target="_blank"><font-awesome-icon class="github-icon hover-icon" :icon="githubIcon" /></a>
-        <a href="https://blog.fukkatsuso.com" target="_blank"><font-awesome-icon class="blog-icon hover-icon" :icon="blogIcon" /></a>
+        <a
+          href="https://github.com/Fukkatsuso"
+          target="_blank"
+        ><font-awesome-icon
+          class="github-icon hover-icon"
+          :icon="githubIcon"
+        /></a>
+        <a
+          href="https://blog.fukkatsuso.com"
+          target="_blank"
+        ><font-awesome-icon
+          class="blog-icon hover-icon"
+          :icon="blogIcon"
+        /></a>
       </div>
     </div>
 
-    <SubTitle name="Activity"/>
+    <SubTitle name="Activity" />
     <div class="profile-activity">
       <h3>インターン@株式会社AIoT</h3>
       <ul>
@@ -42,7 +57,7 @@
       </ul>
     </div>
 
-    <SubTitle name="Future"/>
+    <SubTitle name="Future" />
     <div class="profile-future">
       <p>使う人のことを思いやって開発できるエンジニアになりたい</p>
       <p>サーバーサイドを中心に技術力を上げ，ゆくゆくはフルスタックを目指していきたい</p>
@@ -57,7 +72,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBlog } from '@fortawesome/free-solid-svg-icons'
 
 export default {
-  name: 'about',
+  name: 'About',
   components: {
     SubTitle,
   },

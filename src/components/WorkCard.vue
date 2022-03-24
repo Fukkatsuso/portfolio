@@ -1,11 +1,26 @@
 <template>
   <div class="work-card">
-    <h3 class="work-name">{{ name }}</h3>
-    <p class="work-timing">{{ timing }}</p>
-    <p class="work-content">{{ content }}</p>
-    <p class="work-tech">{{ tech }}</p>
-    <a v-if="link" :href="link" target="_blank">
-      <font-awesome-icon class="work-link-icon" :icon="workLinkIcon" />
+    <h3 class="work-name">
+      {{ name }}
+    </h3>
+    <p class="work-timing">
+      {{ timing }}
+    </p>
+    <p class="work-content">
+      {{ content }}
+    </p>
+    <p class="work-tech">
+      {{ tech }}
+    </p>
+    <a
+      v-if="link"
+      :href="link"
+      target="_blank"
+    >
+      <font-awesome-icon
+        class="work-link-icon"
+        :icon="workLinkIcon"
+      />
     </a>
   </div>
 </template>

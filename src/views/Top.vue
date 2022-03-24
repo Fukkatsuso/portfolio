@@ -1,7 +1,10 @@
 <template>
   <div>
     <div class="top-content-container">
-      <SubTitle class="top-title" name="Mutsuro Tatsuki's Portfolio Site"/>
+      <SubTitle
+        class="top-title"
+        name="Mutsuro Tatsuki's Portfolio Site"
+      />
     </div>
   </div>
 </template>
@@ -10,7 +13,7 @@
 import SubTitle from '@/components/SubTitle.vue'
 
 export default {
-  name: 'top',
+  name: 'Top',
   components: {
     SubTitle,
   },

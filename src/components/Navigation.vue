@@ -1,19 +1,34 @@
 <template>
   <nav>
     <ul>
-      <router-link tag="li" to="/">
+      <router-link
+        tag="li"
+        to="/"
+      >
         <a>Top</a>
       </router-link>
-      <router-link tag="li" to="/about">
+      <router-link
+        tag="li"
+        to="/about"
+      >
         <a>About</a>
       </router-link>
-      <router-link tag="li" to="/skills">
+      <router-link
+        tag="li"
+        to="/skills"
+      >
         <a>Skills</a>
       </router-link>
-      <router-link tag="li" to="/works">
+      <router-link
+        tag="li"
+        to="/works"
+      >
         <a>Works</a>
       </router-link>
-      <router-link tag="li" to="/contact">
+      <router-link
+        tag="li"
+        to="/contact"
+      >
         <a>Contact</a>
       </router-link>
     </ul>
