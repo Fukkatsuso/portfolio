@@ -1,37 +1,20 @@
 <template>
   <nav>
-    <ul>
-      <router-link
-        tag="li"
-        to="/"
-      >
-        <a>Top</a>
-      </router-link>
-      <router-link
-        tag="li"
-        to="/about"
-      >
-        <a>About</a>
-      </router-link>
-      <router-link
-        tag="li"
-        to="/skills"
-      >
-        <a>Skills</a>
-      </router-link>
-      <router-link
-        tag="li"
-        to="/works"
-      >
-        <a>Works</a>
-      </router-link>
-      <router-link
-        tag="li"
-        to="/contact"
-      >
-        <a>Contact</a>
-      </router-link>
-    </ul>
+    <router-link to="/">
+      Top
+    </router-link>
+    <router-link to="/about">
+      About
+    </router-link>
+    <router-link to="/skills">
+      Skills
+    </router-link>
+    <router-link to="/works">
+      Works
+    </router-link>
+    <router-link to="/contact">
+      Contact
+    </router-link>
   </nav>
 </template>
 
@@ -48,38 +31,29 @@ nav {
   left: 0;
   margin: 0;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
-  ul {
-    display: table;
-    margin: 0 auto;
-    padding: 0;
-    width: 80%;
-    @media screen and (max-width: 425px) {
-      width: 100%;
-    }
+  padding-left: 10%;
+  @media screen and (max-width: 425px) {
+    padding-left: 0;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
     text-align: center;
-    li {
-      display: table-cell;
-      padding: 10px 0 0 0;
-      width: 18%;
-      @media screen and (max-width: 425px) {
-        width: 20%;
-      }
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    width: 16%;
+    @media screen and (max-width: 425px) {
+      width: 20%;
     }
-    li:hover {
-      background-color: $secondary-color;
-    }
-    li a {
-      display: block;
-      width: 100%;
-      text-decoration: none;
-      color: rgba(255, 255, 255, 0.7);
-      padding-bottom: 7px;
-      font-size: 15px;
-    }
-    li.router-link-exact-active a {
-      border-bottom: 3px solid $sub-color;
-      color: #ffffff;
-    }
+  }
+  a:hover {
+    background-color: $secondary-color;
+  }
+  a.router-link-exact-active {
+    border-bottom: 3px solid $sub-color;
+    color: #ffffff;
   }
 }
 </style>
