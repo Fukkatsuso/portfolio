@@ -7,7 +7,7 @@ GitHub PagesでホスティングしているVue.js製のポートフォリオ�
 ## Project setup
 
 ```sh
-docker-compose run --rm web npm ci
+docker-compose build
 ```
 
 ## Compiles and hot-reloads for development
