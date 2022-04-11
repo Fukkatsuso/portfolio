@@ -29,6 +29,15 @@ export default {
     return {
       works: [
         {
+          name: 'twego',
+          timing: '2022.04',
+          content: 'リアルタイムに呟かれたツイートをターミナルから見ることができるCLIツールです．\
+                    スポーツ観戦や音楽ライブ鑑賞のお供として気軽に利用できることを目標に制作しました．\
+                    ちなみにcobraというフレームワークを使っています．',
+          tech: 'Go, Docker',
+          link: 'https://github.com/Fukkatsuso/twego',
+        },
+        {
           name: '仮想通貨取引bot',
           timing: '2021.04-2021.09',
           content: '仮想通貨を自動取引するbotを開発しました．\
