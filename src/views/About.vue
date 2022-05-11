@@ -93,7 +93,7 @@ export default {
         },
         {
           title: 'University',
-          content: '九州大学 システム情報科学府 情報理工学専攻 修士1年',
+          content: '九州大学 システム情報科学府 情報理工学専攻 修士2年',
         },
         {
           title: 'Language',
