@@ -114,7 +114,6 @@ export default {
                     数独パズルの選択・解答・答え合わせのみ実装済です．\
                     現在開発はストップしていますが，その後数独問題生成&ソルバーを作り，さらに「数独ソルバー」アプリを作るきっかけになりました．',
           tech: 'Rails',
-          link: 'https://sudoku-rails-app.herokuapp.com'
         },
         { 
           name: '4足歩行ロボット制御',
