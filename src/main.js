@@ -9,8 +9,9 @@ const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(router)
 app.use(VueGtag, {
+  enabled: process.env.NODE_ENV === 'production',
   config: {
-    id: 'UA-162053243-1'
+    id: 'G-9T8JG2E4FP'
   },
 }, router)
 app.mount('#app')
