@@ -7,31 +7,31 @@ GitHub PagesでホスティングしているVue.js製のポートフォリオ�
 ## Project setup
 
 ```sh
-docker-compose build
+docker compose build
 ```
 
 ## Compiles and hot-reloads for development
 
 ```sh
-docker-compose up
+docker compose up
 ```
 
 ## Compiles and minifies for production
 
 ```sh
-docker-compose run --rm web npm run build
+docker compose run --rm web npm run build
 ```
 
 ## Run your tests
 
 ```sh
-docker-compose run --rm web npm run test
+docker compose run --rm web npm run test
 ```
 
 ## Lints and fixes files
 
 ```sh
-docker-compose run --rm web npm run lint
+docker compose run --rm web npm run lint
 ```
 
 ## Deploy to GitHub Pages
