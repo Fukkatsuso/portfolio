@@ -33,15 +33,21 @@
 
     <SubTitle name="Activity" />
     <div class="profile-activity">
+      <h3>DeNAに新卒入社</h3>
+      <ul>
+        <li>IT基盤部でインフラエンジニアとして勤務</li>
+        <li>blog: <a href="https://engineering.dena.com/blog/2024/11/terraform-s3-management/" target="_blank">Terraform を活用した効率的な S3 バケット管理手法</a></li>
+      </ul>
+
+      <h3>九州大学 システム情報科学府 情報理工学専攻 修了</h3>
+      <ul>
+        <li>AIと倫理について研究</li>
+      </ul>
+
       <h3>インターン@株式会社AIoT</h3>
       <ul>
         <li>バックエンドを主に担当(Go, NestJS)</li>
         <li>時々フロントも(Vue.js, React)</li>
-      </ul>
-
-      <h3>鈴木研究室に所属</h3>
-      <ul>
-        <li>データマイニングに関する研究</li>
       </ul>
       
       <h3>競技プログラミングのコンテスト</h3>
@@ -60,7 +66,7 @@
     <SubTitle name="Future" />
     <div class="profile-future">
       <p>使う人のことを思いやって開発できるエンジニアになりたい</p>
-      <p>サーバーサイドを中心に技術力を上げ，ゆくゆくはフルスタックを目指していきたい</p>
+      <p>サーバーサイドを中心に技術力を上げ、ゆくゆくはフルスタックを目指していきたい</p>
       <p>個人でもチームでも多くのアプリやサービスを開発したい</p>
     </div>
   </div>
@@ -92,12 +98,12 @@ export default {
           content: '福岡県',
         },
         {
-          title: 'University',
-          content: '九州大学 システム情報科学府 情報理工学専攻 修士2年',
+          title: 'Company',
+          content: 'DeNA',
         },
         {
           title: 'Language',
-          content: 'Go, Ruby, Japanese',
+          content: 'Go, Japanese',
         },
         {
           title: 'Editor',
@@ -105,7 +111,7 @@ export default {
         },
         {
           title: 'Favorite',
-          content: 'MONKEY MAJIK, 平沢進, ポケモン',
+          content: 'ポケモン, 平沢進, factorio',
         },
       ],
       githubIcon: faGithub,

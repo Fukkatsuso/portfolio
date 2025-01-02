@@ -3,8 +3,8 @@
     <h3 class="skil-name">
       {{ name }}
     </h3>
-    <p class="skill-term">
-      使用歴：{{ term }}
+    <p class="skill-level">
+      レベル感：{{ level }}
     </p>
     <p class="skill-content">
       {{ content }}
@@ -20,7 +20,7 @@ export default {
       type: String,
       required: true,
     },
-    term: {
+    level: {
       type: String,
       required: true,
     },
@@ -55,7 +55,7 @@ export default {
     font-size: 21px;
     margin-bottom: -5px;
   }
-  .skill-term {
+  .skill-level {
     color: #9e9e9e;
     font-size: 15px;
   }
