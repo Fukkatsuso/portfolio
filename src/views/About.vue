@@ -36,7 +36,12 @@
       <h3>DeNAに新卒入社</h3>
       <ul>
         <li>IT基盤部でインフラエンジニアとして勤務</li>
-        <li>blog: <a href="https://engineering.dena.com/blog/2024/11/terraform-s3-management/" target="_blank">Terraform を活用した効率的な S3 バケット管理手法</a></li>
+        <li>
+          blog: <a
+            href="https://engineering.dena.com/blog/2024/11/terraform-s3-management/"
+            target="_blank"
+          >Terraform を活用した効率的な S3 バケット管理手法</a>
+        </li>
       </ul>
 
       <h3>九州大学 システム情報科学府 情報理工学専攻 修了</h3>
